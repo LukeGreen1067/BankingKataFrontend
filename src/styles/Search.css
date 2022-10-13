@@ -1,0 +1,17 @@
+.transaction-btns {
+    display: flex;
+    gap: 10px;
+}
+
+.transaction-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    list-style-type: none;
+    gap: 20px;
+    height: 100%;
+}
+
+.transaction-null-text {
+    text-align: center;
+}

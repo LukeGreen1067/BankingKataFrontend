@@ -1,0 +1,43 @@
+.search-bar {
+    grid-area: sidebar
+}
+
+.data-table {
+    grid-area: main;
+}
+
+.panel {
+    background-color: #1a1d24;
+}
+
+.panels {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 50% 30%;
+    grid-column-gap: 30px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "sidebar main",
+        "main main"
+}
+
+
+@media screen and (max-width:1300px) {
+
+    .panels {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        justify-content: center;
+        display: grid;
+        row-gap: 30px;
+        grid-template-columns: 90%;
+        grid-column-gap: 30px;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "sidebar",
+            "main"
+    }
+}
+
